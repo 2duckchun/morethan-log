@@ -2,9 +2,9 @@ const CONFIG = {
   // profile setting (required)
   profile: {
     name: "2DC",
-    image: "https://avatars.githubusercontent.com/u/92588154?v=4", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
+    image: "/2DC.jpg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "frontend developer",
-    bio: "I'm currently broadening my knowledge.",
+    bio: "사고할 수 있는 개발자가 되기 위해 열심히 공부하고 있습니다.",
     email: "kkts9308@gmail.com",
     linkedin: "",
     github: "2duckchun",
