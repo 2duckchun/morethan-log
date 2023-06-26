@@ -2,13 +2,13 @@ const CONFIG = {
   // profile setting (required)
   profile: {
     name: "2DC",
-    image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
+    image: "https://avatars.githubusercontent.com/u/92588154?v=4", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "frontend developer",
     bio: "I'm currently broadening my knowledge.",
     email: "kkts9308@gmail.com",
     linkedin: "",
     github: "2duckchun",
-    instagram: "https://www.instagram.com/kts9308/",
+    instagram: "kts9308",
   },
   projects: [
     {
@@ -22,16 +22,16 @@ const CONFIG = {
   ],
   // blog setting (required)
   blog: {
-    title: "2DC-log",
-    description: "welcome to my Log!",
+    title: "의미있는 기록 저장소",
+    description: "Welcome to my Log!",
     theme: "auto", // ['light', 'dark', 'auto']
   },
 
   // CONFIG configration (required)
-  link: "https://morethan-log.vercel.app",
-  since: 2022, // If leave this empty, current year will be used.
+  link: "https://morethan-2dc.vercel.app/",
+  since: 2023, // If leave this empty, current year will be used.
   lang: "en-US", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
-  ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
+  ogImageGenerateURL: "https://avatars.githubusercontent.com/u/92588154?v=4", // The link to generate OG image, don't end with a slash
   seo: {
     keywords: ["Blog", "Website", "Notion"],
   },
@@ -55,9 +55,9 @@ const CONFIG = {
     },
   },
   utterances: {
-    enable: false,
+    enable: true,
     config: {
-      repo: "morethanmin/morethan-log",
+      repo: "2duckchun/morethan-log",
       "issue-term": "og:title",
       label: "💬 Utterances",
     },
